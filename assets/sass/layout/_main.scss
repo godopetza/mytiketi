@@ -1,0 +1,12 @@
+/* Main */
+
+	#main {
+		@include padding(4em, 0);
+		background-image: url('images/overlay.png'), url('images/pattern-size1.svg');
+
+		// Small.
+			@include breakpoint('<=small') {
+				@include padding(3em, 0);
+			}
+
+	}
